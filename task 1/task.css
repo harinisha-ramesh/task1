@@ -13,11 +13,12 @@ html,body{
 }
 header {
     background-color: #009900;
-    text-align: center;
+    display: flex;
     border-radius: 25px;
     height: 10%;
-    
-    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue; 
     
 }
 nav {
@@ -41,7 +42,7 @@ nav a:hover{
     color: white;
 }
 footer{
-    background-color:rgb(62, 61, 114);
+    background-color:rgb(10, 92, 60);
     color: aliceblue;
     text-align: center;
     height: 10%;
@@ -49,28 +50,29 @@ footer{
 }
 .side{
     display: flex;
-    flex: 1;
     height: 70%;
     
 }
 
 .sidebar{
-    background-color: #3d545e;
+    background-color: #2f9168;
     width: 30%;
     border-radius: 25px;
     color: aliceblue;
     height: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 .content{
-    background-color: #5c5586;
+    background-color: #969e1f;
     color: aliceblue;
-    flex: 1;
     height: 100%;
     width: 70%;
     border-radius: 25px;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
